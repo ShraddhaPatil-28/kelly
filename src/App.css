@@ -1,0 +1,177 @@
+/* home ,navbar  */
+
+.icon {
+  margin-left: 10px;
+
+
+}
+.footer{
+  height: 130px;
+  background-color: #e9e8e6;
+}
+
+
+
+
+
+
+.parallax {
+
+  background-image: url("./hero-bg.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about{
+  background-color: #34b7a7;
+  border: none;
+}
+
+.extra{
+  position: relative;
+  top: 20px;
+}
+
+
+.menu {
+  margin-left: 300px !important;
+}
+
+
+.main {
+  display: flex;
+  list-style: none;
+}
+
+.icona {
+  padding: 5px;
+  position: relative;
+  top: 5px;
+
+}
+.nav-item{
+  position: relative;
+  left: 400px;
+}
+
+
+/* about */
+
+.list{
+  list-style: none;
+}
+
+
+.info{
+  
+  font-size: 15px;
+  
+}
+.image{
+  width: 100%;
+  height: 400px;
+  
+ 
+}
+
+.heading3{
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: 1px;
+ 
+}
+.progress-bar{
+  width: 100%;
+  background-color: #34b7a7;
+}
+.text{
+  font-size: 50px;
+  color:#34b7a7 ;
+  
+}
+.text1{
+  font-size: 20px;
+  color:rgb(50, 49, 49);
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 25px;
+  
+}
+ /* Services */
+ 
+ .card{
+  border: none;
+  background-color: whitesmoke;
+  height: 230px;
+ }
+ .Icon{
+  color:#34b7a7 ;
+  font-size: 30px;
+ }
+ /* Resume */
+
+ 
+ .temp{
+  list-style-type: circle;
+ }
+ 
+/* portfilo */
+
+
+.btn:hover{
+  background-color:#34b7a7 ;
+  border-radius: 50%;
+  color: white ;
+}
+ /* contact */
+  .bradius:hover{
+    background-color: #34b7a7;
+    color: white !important;
+    width: 60px;
+    height: 30px;
+  }
+  .bradius{
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 400px) {
+  .message{
+    width: 300px !important;
+  }
+
+  }
+  /* services */
+  .maini{
+    width: 80px;
+    height: 80px;
+    border-radius: 70px 30px 110px 80px; 
+    align-items: center;   
+    /* color:rgb(233, 93, 75); */
+    background-color: rgb(200, 199, 199);
+
+}
+.maini:hover{
+    /* color: white; */
+    background-color: rgb(107, 237, 237);
+}
+
+.shaeco{
+  border-radius: 50%;
+  padding: 1px;
+  border: 2px solid rgb(202, 211, 202);
+  
+  /* height: 40px; */
+  /* width: 40px; */
+
+}
+
+.shaeco:hover{
+  background-color: rgb(204, 238, 170);
+}
